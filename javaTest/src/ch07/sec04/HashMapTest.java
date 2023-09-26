@@ -14,6 +14,8 @@ public class HashMapTest {
 		hmDic.put("babt", "아기");
 		hmDic.put("love", "사랑");
 		hmDic.put("apple", "사과");
+		//key 객체를 중복했을때 이전의 벨류는 사라진다
+		hmDic.put("apple", "사과2");
 
 		// HashMap 출력(set으로 k객체를 바꾼다.)
 		Set<String> kset = hmDic.keySet();
