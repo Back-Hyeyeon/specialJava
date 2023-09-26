@@ -2,6 +2,7 @@ package ch07.sec02;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 public class ArrayList1 {
@@ -17,11 +18,20 @@ public class ArrayList1 {
 			strList.add(new String("홍길동" + no));
 		}
 		printArryA(strArray, strList);
+		
+		
+		//ArrayList  Iterator 변환해서 출력
+		System.out.println("============Iterator============");
+		Iterator<String> it = strList.iterator();
+		while(it.hasNext()){
+			String data = it.next();
+			System.out.printf("%s",data);
+		}
 
 		strArray[1] = new String("저길동");
 		strList.add(1, new String("저길동"));
 
-		System.out.println("===================================");
+		System.out.println("\n===================================");
 		printArryA(strArray, strList);
 
 		// 해당되는 객체가 존재하는지 확인
