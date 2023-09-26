@@ -10,12 +10,7 @@ public class Student {
 		super();
 	}
 
-	public Student( String major, String num, String avg) {
-		super();
-		this.major = major;
-		this.num = num;
-		this.avg = avg;
-	}
+	
 	public Student(String name, String major, String num, String avg) {
 		super();
 		this.name = name;

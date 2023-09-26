@@ -38,8 +38,6 @@ public class ArrayListTest {
 				System.out.printf("검색을 종료합니다.\n");
 				break;
 			} else if (name == null) {
-				sc.nextLine();
-				System.out.printf("없는 단어입니다\n");
 				break;
 			}
 			for (int i = 0; i < stu.size(); i++) {
