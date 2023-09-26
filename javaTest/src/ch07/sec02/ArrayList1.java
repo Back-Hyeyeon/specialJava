@@ -82,9 +82,11 @@ public class ArrayList1 {
 				isEmpty = false;
 			}
 		}
+		System.out.println("\n===================================");
 		System.out.printf("strArray :%s \n", (isEmpty == true) ? "배열이 비어있어요" : "배열 값이있어요");
 		System.out.printf("strList :%s \n", (strList.isEmpty() == true) ? "List 비어있어요" : "List 값이있어요");
 
+		System.out.printf("\n end");
 //		if(isEmpty==true) {
 //			System.out.println("배열이 비어있어요");
 //		}else {
