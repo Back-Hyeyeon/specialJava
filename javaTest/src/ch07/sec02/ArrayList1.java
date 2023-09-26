@@ -2,6 +2,7 @@ package ch07.sec02;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
@@ -27,6 +28,16 @@ public class ArrayList1 {
 			String data = it.next();
 			System.out.printf("%s",data);
 		}
+		
+		//정렬보여주기
+		
+		System.out.println("\n============Sort============");
+		Collections.sort(strList);
+		printArryA(strArray, strList);
+		
+		System.out.println("\n============반전Sort============");
+		Collections.reverse(strList);
+		printArryA(strArray, strList);
 
 		strArray[1] = new String("저길동");
 		strList.add(1, new String("저길동"));
