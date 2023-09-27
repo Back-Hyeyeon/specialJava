@@ -23,3 +23,5 @@
 hs_err_pid*
 replay_pid*
 /.metadata/
+javaTest/src/ch07/sec06/HashMapStudentEx2.java
+javaTest/src/ch07/sec06/Student.java
