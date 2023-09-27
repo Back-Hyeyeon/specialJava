@@ -8,11 +8,11 @@ import java.util.Set;
 public class Main2 {
 	public static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args) {
-		
+		Student[] student = new Student[5];
 		HashMap<String, Double> hm = new HashMap<>();
 		
 		System.out.println("미래장학금관리시스템입니다.");
-		for(int i=0; i<5; i++) {
+		for(int i=0; i<student.length; i++) {
 			System.out.print("이름과 학점 >> ");
 			String name = sc.next();
 			double av = sc.nextDouble();
